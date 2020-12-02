@@ -12,7 +12,7 @@ public class Day1 {
     // TODO - optimize.
     public static void main(String[] args) throws IOException {
         Set<String> inputSet;
-        try (Stream<String> lines = Files.lines(Paths.get((Objects.requireNonNull(Day1.class.getClassLoader().getResource("input.txt"))).getPath()))) {
+        try (Stream<String> lines = Files.lines(Paths.get((Objects.requireNonNull(Day1.class.getClassLoader().getResource("day1.txt"))).getPath()))) {
             inputSet = lines.collect(Collectors.toSet());
         }
 
